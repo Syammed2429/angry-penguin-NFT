@@ -1,0 +1,31 @@
+.flex {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: -5em;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  background-image: url("./bgFlame.png");
+
+  /* box-shadow: 5px 4px 5px #2d4568; */
+}
+.connect-to-wallet {
+  border: 3px dotted orange;
+  background: transparent;
+  padding: 10px 20px;
+  color: orange;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.slider-wrap,
+.slider-wrap1 {
+  display: flex;
+  overflow: hidden;
+}
+
+.slider-wrap img {
+  content: url("./pengo2.png");
+  width: 500%;
+  animation: slide 50s linear infinite;
+  outline: 2px solid;
+}
+.slider-wrap1 img {
+  content: url("./pengo1.png");
+  width: 500%;
+  animation: slide 50s linear infinite;
+  outline: 2px solid;
+}
+
+@keyframes slide {
+  to {
+    transform: translateX(-200%);
+  }
+}
+
+@keyframes slide1 {
+  to {
+    transform: translateX(-200%);
+  }
+}
